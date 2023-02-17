@@ -34,10 +34,10 @@ const randomFunk = () => {
     return random[index];
 }
 
-createStar('Obi-Wan Kenobi', './assets/images/obi-wan.jpg', randomFunk())
-createStar('Luke SkyWalker', './assets/images/luke-skywalker.jpg', randomFunk())
-createStar('Darth Sidious', './assets/images/darth-sidious.png', randomFunk())
-createStar('Darth Maul', './assets/images/darth-maul.jpg', randomFunk())
+createStar('Obi-Wan Kenobi', 'assets/images/obi-wan.jpg', randomFunk())
+createStar('Luke SkyWalker', 'assets/images/luke-skywalker.jpg', randomFunk())
+createStar('Darth Sidious', 'assets/images/darth-sidious.png', randomFunk())
+createStar('Darth Maul', 'assets/images/darth-maul.jpg', randomFunk())
 let character = document.querySelectorAll('#characters-section .character');
 
 for (let i = 0; i < character.length; i++) {
